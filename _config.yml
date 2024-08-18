@@ -6,10 +6,10 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yuzhe Fu"
-description              : "PhD student of DKU. Focusing on algorithm-hardware co-design."
-repository               : "Yuzhe-Fu/Yuzhe-Fu.github.io"
-google_scholar_stats_use_cdn : true
+title                    : "Qiyu Huang"
+description              : "Master of YALE. Focusing on #FIXME."
+repository               : "QYHuang00/qyhuang00.github.io"
+google_scholar_stats_use_cdn : False
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yuzhe Fu"
+  name             : "Qiyu Huang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Duke Univerisy" # VLSI Lab
-  location         : "Durham, NC"
+  bio              : "Yale Univerisy"
+  location         : "Durham, NC" #FIXME
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=VzWdz1gAAAAJ&hl=zh-CN"
-  email            : "yuzhe.fu@duke.edu"
+  googlescholar    : #"https://scholar.google.com/citations?user=VzWdz1gAAAAJ&hl=zh-CN"
+  email            : "yuzhe.fu@duke.edu" #FIXME
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
