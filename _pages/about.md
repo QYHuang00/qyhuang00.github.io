@@ -17,23 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a PhD student in the Department of Computer Science of [Duke University](https://duke.edu/), and a member of [Computational Evolutionary Intelligence (CEI) Lab](https://cei.pratt.duke.edu/) under the supervision of [Prof. Yiran Chen](https://cei.pratt.duke.edu/people/yiran-chen). I received my M.S. degree from [Peking University](https://english.pku.edu.cn/) in 2024, under the supervision of [Prof. Hailong Jiao](https://www.ece.pku.edu.cn/en/info/1095/1323.htm). I obtained my BEng degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) in 2021, advised by [Prof. Fengwei An](https://faculty.sustech.edu.cn/anfw/en/). For now, my research realm focuses on **algorithm-hardware co-design**.  
-E-mail: yuzhe.fu@duke.edu
+I received my Master degree from [Yale University](https://www.yale.edu/) in 2024, under the supervision of [Prof. Hongyu Zhao]([https://www.ece.pku.edu.cn/en/info/1095/1323.htm](https://ysph.yale.edu/profile/hongyu-zhao/)). I obtained my Bachelor degree from [Southern University of Science and Technology](https://www.sustech.edu.cn/en/) in 2022, advised by [Prof. xxx](#FIXME). For now, my research realm focuses on **#FIXME**.  
+E-mail: #FIXME
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
  -->
  
 # 📖 Educations
-- *2024.08 - Present*, PhD student in the department of Computer Science, Duke University.
-- *2021.09 - 2024.07*, Master of Science, Peking University.
-- *2017.09 - 2021.06*, Bachelor of Engineering, Southern University of Science and Technology.
-- *2019.08 - 2019.12*, Global Access Program, University of California, Berkeley. 
+- *2022.08 - 2024.06*, Master of Science (IS THIS RIGHT?), Yale University.
+- *2018.09 - 2022.06*, Bachelor of Engineering (IS THIS RIGHT?), Southern University of Science and Technology.
 
 # 🎖 Honors and Awards
-- *2021* Excellent Graduate Award, Southern University of Science and Technology
-- *2021* Best Presentation Award in IEEE CASS Shanghai and Shenzhen Joint Workshop 
+- *2022* Excellent Graduate Award, Southern University of Science and Technology
 - *2020* **National Scholarship**, Ministry of Education of the PRC (The highest scholarship for Chinese undergraduates)
-- *2018, 2019* The First Prize of Outstanding Students in SUSTech (**Top 5%** in SUSTech)
+- *2019* The First Prize of Outstanding Students in SUSTech (**Top 5%** in SUSTech)
 
 # 🔥 News
 - *2024.08*: Starting my PhD journey — wish me luck🍀!
@@ -74,47 +71,6 @@ Changchun Zhou#, **Yuzhe Fu**#, Yanzhe Ma, Eryi Han, Yifan He, Hailong Jiao.
 <summary>Abstract</summary>
   Point cloud is increasingly used in a variety of applications. Farthest Point Sampling (FPS) is typically employed for down-sampling to reduce the size of point cloud and enhance the representational capability by preserving contour points in point cloud analysis. However, due to low parallelism and high computational complexity, high energy consumption and long latency are caused, which becomes a bottleneck of hardware acceleration. In this brief, we propose an adjustable multi-stream block-wise FPS algorithm, adjusted by four configurable parameters, according to hardware and accuracy requirements. A unified hardware architecture with one parameter is designed to implement the adjustable multi-stream block-wise FPS algorithm. Furthermore, we present a rapid searching algorithm to select the optimal configuration of the five parameters. Designed in an industrial 28-nm CMOS technology, the proposed hardware architecture achieves a latency of 0.005 (1.401) ms and a frame energy consumption of 0.09 (27.265) µJ/frame for 1 k (24 k) input points at 200 MHz and 0.9 V supply voltage. Compared to the state of the art, the proposed hardware architecture reduces the latency by up to 99.9%, saves the energy consumption by up to 99.5%, and improves the network accuracy by up to 9.34%.
 </details>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD</div><img src='images/ICCAD.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[An Energy-Efficient 3D Point Cloud Neural Network Accelerator with Efficient Filter Pruning, MLP Fusion, and Dual-Stream Sampling](https://ieeexplore.ieee.org/document/10323704)
-
-Changchun Zhou, **Yuzhe Fu**, Min Liu, Siyuan Qiu, Ge Li, Yifan He, Hailong Jiao.
-
-**2023**, *IEEE/ACM International Conference On Computer Aided Design*
-[[pdf](../papers/ICCAD.pdf)][[YouTube](https://youtu.be/3Yw3-jFeRaE)]
-<details>
-<summary>Abstract</summary>
-  Three-dimensional (3D) point cloud has been employed in a wide range of applications recently. As a powerful weapon for point cloud analysis, point-based point cloud neural networks (PNNs) have demonstrated superior performance with less computation complexity and parameters, compared to sparse 3D convolution-based networks and graph-based convolutional neural networks. However, point-based PNNs still suffer from high computational redundancy, large off-chip memory access, and low parallelism in hardware implementation, thereby hindering the applications on edge devices. In this paper, to address these challenges, an energy-efficient 3D point cloud neural network accelerator is proposed for on-chip edge computing. An efficient filter pruning scheme is used to skip the redundant convolution of pruned filters and zero-value feature channels. A block-wise multi-layer perceptron (MLP) fusion method is proposed to increase the on-chip reuse of features, thereby reducing off-chip memory access. A dual-stream blocking technique is proposed for higher parallelism while maintaining inference accuracy. Implemented in an industrial 28-nm CMOS technology, the proposed accelerator achieves an effective energy efficiency of 12.65 TOPS/W and 0.13 mJ/frame energy consumption for PointNeXt-S at 100 MHz, 0.9 V supply voltage, and 8-bit data width. Compared to the state-of-the-art point cloud neural network accelerators, the proposed accelerator enhances the energy efficiency by up to 66.6× and reduces the energy consumption per frame by up to 70.2×.
-</details>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IOTJ</div><img src='images/IOTJ.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Sagitta: An Energy-Efficient Sparse 3D-CNN Accelerator for Real-Time 3D Understanding](https://ieeexplore.ieee.org/document/10224248)
-
-Changchun Zhou, Min Liu, Siyuan Qiu, Xugang Cao, **Yuzhe Fu**, Yifan He, Hailong Jiao.
-
-**2023**, *IEEE Internet of Things Journal*
-[[pdf](../papers/Sagitta_An_Energy-Efficient_Sparse_3D-CNN_Accelerator_for_Real-Time_3-D_Understanding.pdf)]
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCAS-I</div><img src='images/tcas-i.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A 4.29 nJ/pixel stereo depth coprocessor with pixel level pipeline and region optimized semi-global matching for IoT application](https://ieeexplore.ieee.org/abstract/document/9505253)
-
-Pingcheng Dong, Zhuoyu Chen, Zhuoao Li, **Yuzhe Fu**, Lei Chen, Fengwei An.  
-
-**2021**, *IEEE Transactions on Circuits and Systems I: Regular Papers*
-[[pdf](../papers/A_4.29nJ_pixel_Stereo_Depth_Coprocessor_With_Pixel_Level_Pipeline_and_Region_Optimized_Semi-Global_Matching_for_IoT_Application.pdf)]
-
 </div>
 </div>
 
